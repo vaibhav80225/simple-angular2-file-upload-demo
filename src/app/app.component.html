@@ -1,0 +1,9 @@
+<form class="form-horizontal form-control" role="form" (ngSubmit)="uploadFile()">
+    <input type="file" [multiple]="multiple" #fileInput>
+    Enter name:<input type="text" #name required>
+    <div class="form-group">
+        <div class="text-center">
+            <br/><button type="submit">Upload</button>
+        </div>
+    </div>
+</form>
